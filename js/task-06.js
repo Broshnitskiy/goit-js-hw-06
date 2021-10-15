@@ -13,17 +13,6 @@ function handleInputBlur (event) {
  
 inputValidationRef.addEventListener("blur", handleInputBlur)
 
-
-// inputValidationRef.addEventListener("blur", event => {
- 
-//     if(event.currentTarget.value.length === 6) {
-//         inputValidationRef.classList.add("valid")
-//         inputValidationRef.classList.remove("invalid")
-//     } else {
-//         inputValidationRef.classList.add("invalid")
-//         inputValidationRef.classList.remove("valid")
-//     }
-// })
  
 
 
