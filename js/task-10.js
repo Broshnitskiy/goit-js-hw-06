@@ -30,8 +30,10 @@ buttonCreateRef.addEventListener("click", () => {
 
 
 buttonDestroyRef.addEventListener("click", () => {
-   destroyBoxes()
+  destroyBoxes();
+  inputRef.value = "";
 });
+
 
 
 
